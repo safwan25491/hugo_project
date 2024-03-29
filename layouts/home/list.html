@@ -1,0 +1,30 @@
+{{ define "main"}}
+<section>
+    <div class="main-container">
+        <h1>Codey Features</h1>
+        <div class="card-container">
+            <div class="card">
+                {{ $image := resources.Get "images/card-1.png" }}
+                    <img class="card-image" src="{{ $image.RelPermalink }}" alt="">
+                    <h3 class="card-heading">Fully Managed Dedicated
+                        Forgejo</h3>
+                    <p class="card-para">
+                        Minions ipsum uuuhhh me want bananaaa! Ti aamoo! Daa la bodaaa tatata bala tu uuuhhh. Aaaaaah pepete uuuhhh po kass. Bappleees baboiii bappleees po kass tatata bala tu gelatooo.
+                    </p>
+            </div>
+            <div class="card">
+                {{ $image := resources.Get "images/card-1.png" }}
+                <img class="card-image" src="{{ $image.RelPermalink }}" alt="">               
+                 <h3 class="card-heading">Hosted in Europe</h3>
+                <p class="card-para">Tulaliloo underweaaar bee do bee do bee do bee do bee do bee do poulet tikka masala poulet tikka masala wiiiii uuuhhh chasy me want bananaaa! Tulaliloo bananaaaa aaaaaah poopayee jiji underweaaar baboiii tatata bala tu po kass gelatooo ti aamoo!</p>
+        </div>
+        <div class="card">
+            {{ $image := resources.Get "images/card-3.png" }}
+            <img class="card-image" src="{{ $image.RelPermalink }}" alt="">            
+             <h3 class="card-heading">Additional Features</h3>
+            <p class="card-para">Aaaaaah aaaaaah jeje hana dul sae. Potatoooo chasy wiiiii hana dul sae. Me want bananaaa! ti aamoo! Hahaha tank yuuu!</p>
+    </div>
+        </div>
+    </div>
+</section>
+{{end}}

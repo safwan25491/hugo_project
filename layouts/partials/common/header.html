@@ -1,0 +1,29 @@
+<header class="header">
+    <div class="header-container">
+        <div class="top-container">
+            {{ $image := resources.Get "images/OriginalLogo.svg" }}
+            <img src="{{ $image.RelPermalink }}" alt="">
+            <button class="contact-button">Contact</button>
+
+ </div>
+        <div class="title-container">
+            <h1>
+                European Code
+            </h1>
+            <h1>
+Collaboration Platform
+            </h1>
+        </div>
+        <div class="email-container">
+            <div class="email-form">
+                <input type="email" placeholder="Enter your email">
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+        <div class="center">
+            {{ $image := resources.Get "images/git.png" }}
+            <img src="{{ $image.RelPermalink }}" alt="">
+        </div>
+        
+            </div>
+</header>

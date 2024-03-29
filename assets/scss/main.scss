@@ -1,0 +1,84 @@
+@import "variable.scss";
+/* Common */
+@import "partials/common/header.scss";
+@import "partials/common/footer.scss";
+@import "partials/common/second.scss";
+
+/* Home */
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  background-color: #07070c;
+  > h1 {
+    padding-top: 100px;
+    margin-top: 0px;
+    font-family: "poppins";
+    color: #ffffff;
+    font-size: 56px;
+    font-weight: 700;
+  }
+  > .card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 150px;
+   
+    > .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 465px;
+      height: 639px;
+      // top: 1993px;
+      // left: 728px;
+      // gap: 0px;
+      border-radius: 25px;
+      // border: 1px 0px 0px 0px;
+      // border-color: ;
+      border: 1px solid rgba(217, 217, 217, 1);
+      // opacity: 0px;
+
+      background: linear-gradient(180deg, #111218 0%, #171717 100%);
+
+      > img {
+        max-width: 303px;
+        max-height: 206px;
+        padding-top: 42px;
+      }
+      > h3 {
+        font-family: "poppins";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 31px;
+        color: rgba(217, 217, 217, 1);
+
+        // text-align: left;
+      }
+      > p {
+        font-family: "poppins";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        max-width: 355px;
+        // text-align: left;
+        color: rgba(217, 217, 217, 1);
+        // padding: 0px 14px;
+      }
+    }
+  }
+}

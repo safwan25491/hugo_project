@@ -1,0 +1,95 @@
+.container {
+  background:
+    /* top, transparent black, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0.95),
+      rgba(0, 0, 0, 0.95)
+    ),
+    url("/5.jpg");
+
+  > h1 {
+    padding-top: 130px;
+    margin-top: 0px;
+    font-family: "Poppins", sans-serif;
+    font-size: 56.99px;
+    font-weight: 700;
+    line-height: 64.69px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+  }
+  > .cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 0px 180px;
+    > .card-section {
+      display: flex;
+      gap: 40px;
+
+      > .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(180deg, #101010 0%, #171717 100%);
+        border: 1px solid rgba(217, 217, 217, 1);
+        max-width: 717px;
+        min-width: 500px;
+        max-height: 179px;
+        // top: 3065px;
+        // left: 224px;
+        gap: 0px;
+        border-radius: 25px;
+        // opacity: 0px;
+        > h3 {
+          font-family: "Poppins", sans-serif;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 31px;
+        //   text-align: left;
+          color: rgba(217, 217, 217, 1);
+          padding: 0px 16px;
+          margin-bottom: 0px;
+        }
+        > p {
+          padding: 0px 20px;
+          font-family: "Poppins", sans-serif;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 30px;
+          text-align: left;
+          color: rgba(217, 217, 217, 1);
+        }
+      }
+    }
+  }
+  > h3 {
+    padding-top: 80px;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    text-align: center;
+    color: rgba(217, 217, 217, 1);
+    padding-bottom: 140px;
+    margin-bottom: 0px;
+  }
+}
+@media screen and (min-width: 858px) {
+     .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(180deg, #101010 0%, #171717 100%);
+        border: 1px solid rgba(217, 217, 217, 1);
+        max-width: 400px;
+        // min-width: 500px;
+        // max-height: 400px;
+        // top: 3065px;
+        // left: 224px;
+        gap: 0px;
+        border-radius: 25px;
+        // opacity: 0px;
+ 
+      }
+}

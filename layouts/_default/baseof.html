@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    {{ partial "common/head.html" . }}
+    <body style="margin: 0px; overflow: scroll;">
+        {{ partial "common/header.html" . }}
+        {{ block "main" . }}{{ end }}
+        {{ partial "common/second.html" . }}
+        {{ partial "common/footer.html" . }}
+        {{ partial "common/scripts.html" . }}
+        {{ block "scripts" . }}{{ end }}
+
+    </body>
+</html>

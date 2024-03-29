@@ -1,0 +1,133 @@
+header{
+
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.95), 
+      rgba(0, 0, 0, 0.95)
+    ), url('/5.jpg');
+    background-size: cover; /* Ensure the background image covers the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: repeat-x;
+    background-color: black;
+    
+}
+.top-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px 200px;
+}
+
+.contact-button {
+    width: 200px;
+    height: 66px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 33px; /* Half of the height to make it a cylinder */
+    color: #000; /* Text color */
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none; /* Removes default button outline */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.contact-button:hover {
+    background-color: #C0C0C0; /* Darker shade on hover */
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center; /* Align text to the center */
+    font-family: 'Poppins', sans-serif; /* Use Poppins font */
+    font-weight: 700; /* Set font weight to 700 */
+    font-size: 56px; /* Set font size */
+    line-height: 1.2; /* Set line height slightly greater than font size */
+    margin-top: 50px; /* Add some top margin for spacing */
+}
+
+.title-container h1 {
+    color: #FFFFFF
+    ;
+    margin: 0; /* Remove default margin */
+}
+.email-container {
+    display: flex;
+    justify-content: center; /* Center the form horizontally */
+    margin-top: 50px; /* Add some top margin for spacing */
+}
+
+.email-form {
+    display: flex;
+    align-items: center;
+    width: 514px;
+    border-radius: 30px; /* Half of the height to make it a cylinder */
+    overflow: hidden; /* Ensure button doesn't overflow */
+}
+
+.email-form input[type="email"] {
+    height: 50px; /* Adjust input field height as needed */
+    padding: 10px;
+    border: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-size: 16px;
+    flex-grow: 1; /* Input field takes remaining space */
+}
+
+.email-form button {
+    height: 50px; /* Adjust button height as needed */
+    background-color: #40F8C7;
+    color: #11135A;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 17.33px;
+    line-height: 26px;
+    border: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none; /* Removes default button outline */
+}
+
+.email-form button:hover {
+    background-color: #33d6b5; /* Darker shade on hover */
+}
+
+
+.email-form input[type="email"] {
+    height: 50px; /* Adjust input field height as needed */
+    padding: 10px;
+    border: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-size: 16px;
+    flex-grow: 1; /* Input field takes remaining space */
+}
+
+.email-form button {
+    height: 70px; /* Adjust button height as needed */
+    width: 136px;
+    background-color: #40F8C7;
+    color: #11135A;
+    border: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none; /* Removes default button outline */
+}
+
+.email-form button:hover {
+    background-color: #33d6b5; /* Darker shade on hover */
+}
+.center{
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150px;
+}

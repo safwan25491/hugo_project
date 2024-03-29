@@ -1,0 +1,92 @@
+.footer {
+  background-color: rgba(7, 7, 12, 1);
+  > .question-main-container {
+    > h1 {
+        padding-top: 138px;
+      font-family: "Poppins", sans-serif;
+      font-size: 56.99px;
+      font-weight: 700;
+      line-height: 64.69px;
+      text-align: center;
+      color: rgba(255, 255, 255, 1);
+      margin-top: 0px;
+    }
+    > .question-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* Two columns */
+      gap: 60px;
+      padding: 20px 200px;
+      > .card-1 {
+        > h3 {
+          font-family: "Poppins", sans-serif;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 31px;
+          text-align: left;
+          color: rgba(217, 217, 217, 1);
+        }
+        > p {
+          font-family: "Poppins", sans-serif;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 30px;
+          text-align: justified;
+          color: rgba(217, 217, 217, 1);
+        }
+      }
+    }
+  }
+  > .end-section {
+    padding: 0px 200px;
+    position: relative;
+    > img {
+        padding-bottom: 16px;
+        // padding-left: 36px;
+    }
+    > .border {
+        width: 105%;
+        position: absolute;
+        top: 50; /* Align the border to the top of the container */
+    left: 50%;
+    transform: translateX(-50%); /* Center the border */
+    width: 100%; /* Extend the border width */
+    border-top: 2px solid rgba(255, 255, 255, 1);
+    height: 0;
+      // height: 1px;
+    //   border-top: black;
+      height: 0.1px;
+      border: 2px solid rgba(255, 255, 255, 1);
+    //   padding-bottom: 10px;
+    }
+    > .end-details {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    //   padding: 0px 200px;
+      > .copy-right {
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: justified;
+        color: rgba(217, 217, 217, 1);
+
+
+      }
+      >.right{
+        display: flex;
+        gap: 16px;
+        >p{
+            font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: justified;
+        color: rgba(217, 217, 217, 1);
+
+        }
+      }
+    }
+  }
+}
