@@ -57,7 +57,7 @@ html {
 
       > img {
         max-width: 303px;
-        max-height: 206px;
+        max-height: 195px;
         padding-top: 42px;
       }
       > h3 {
@@ -66,6 +66,8 @@ html {
         font-weight: 700;
         line-height: 31px;
         color: rgba(217, 217, 217, 1);
+        padding: 0px 55px;
+
 
         // text-align: left;
       }
@@ -77,6 +79,7 @@ html {
         max-width: 355px;
         // text-align: left;
         color: rgba(217, 217, 217, 1);
+        padding: 0px 55px;
         // padding: 0px 14px;
       }
     }
